@@ -2,5 +2,5 @@
 
 ## Run
 1. Install [Node.js](https://nodejs.org)
-2. From project root folder launch the install script `sh install.sh`
+2. From project `electron` folder, launch the install script `sh install.sh`
 3. Launch the project : `npm run start`
