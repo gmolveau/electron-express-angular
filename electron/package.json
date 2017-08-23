@@ -1,0 +1,20 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "angular-build": "cd express/angular && npm run build",
+    "start": "npm run angular-build && electron main",
+    "win32": "npm run angular-build && electron-packager . myApp --platform=win32 --arch=ia32",
+    "win64": "npm run angular-build && electron-packager . myApp --platform=win32 --arch=x64",
+    "linux32": "npm run angular-build && electron-packager . myApp --platform=linux --arch=ia32",
+    "linux64": "npm run angular-build && electron-packager . myApp --platform=linux --arch=x64",
+    "osx": "npm run angular-build && electron-packager . myApp --platform=darwin --arch=x64"
+  },
+  "devDependencies": {
+    "electron": "^1.7.5"
+  },
+  "dependencies": {
+    "electron-packager": "^8.7.2"
+  }
+}
