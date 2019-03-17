@@ -1,5 +1,5 @@
 {
-  "name": "electron",
+  "name": "electron-app",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
@@ -10,5 +10,9 @@
     "linux32": "npm run angular-build && electron-packager . myApp --platform=linux --arch=ia32",
     "linux64": "npm run angular-build && electron-packager . myApp --platform=linux --arch=x64",
     "osx": "npm run angular-build && electron-packager . myApp --platform=darwin --arch=x64"
+  },
+  "dependencies": {
+    "electron": "^4.1.0",
+    "electron-packager": "^13.1.1"
   }
 }
