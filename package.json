@@ -1,0 +1,7 @@
+{
+  "name": "electron-express-angular-app",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "cd electron && npm install electron electron-packager && cd express && npm install body-parser compression express morgan && npm install -g @angular/cli && ng new angular --routing=true --style=css"
+  }
+}
