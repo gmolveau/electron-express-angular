@@ -15,7 +15,7 @@ module.exports = () => {
 	// var db = require('mongoose');
 
 	// Angular
-	app.use('/', express.static(__dirname + "/angular/dist"));
+	app.use('/', express.static(__dirname + "/angular/dist/angular"));
 
 	// API routes
 		// only for example
